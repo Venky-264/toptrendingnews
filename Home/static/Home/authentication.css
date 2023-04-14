@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Rubik+Vinyl&display=swap');
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#otp-form{
+    margin-top: 170px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    box-shadow: 2px 3px 3px 1px black;
+    border-radius: 10px;
+}
+#otp-form label{
+    font-family: 'Alkatra';
+}
+
+@media screen and (max-width:900px) {
+    #otp-form{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px) {
+    #otp-form{
+        width: 60%;
+    }
+}
+@media screen and (max-width:400px) {
+    #otp-form{
+        width: 80%;
+    }
+}

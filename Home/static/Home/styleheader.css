@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Rubik+Vinyl&display=swap');
+#header a{
+    font-family: 'Alkatra';
+    color: aliceblue;
+}
+#header a:hover{
+    color: black;
+}
+@media screen and (max-width:1200px) {
+    #header a{
+        font-size: 15px;
+    } 
+}

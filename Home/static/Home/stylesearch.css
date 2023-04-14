@@ -1,0 +1,36 @@
+body{
+    background-image:url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.interest{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    box-shadow: 2px 3px 3px 1px black;
+    border-radius: 10px;
+  }
+  .interest p{
+    font-weight: 700;
+    font-size: medium;
+    font-style: italic;
+    text-align: justify;
+  }
+  .interest label{
+    font-weight: 600;
+    font-size: medium;
+    font-style: italic;
+    text-align: justify;
+  }
+  @media screen and (max-width:800px) {
+    .interest{
+        width:50%;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .interest{
+        width:80%;
+    }
+  }
